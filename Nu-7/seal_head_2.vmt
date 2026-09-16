@@ -1,0 +1,45 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Bread\CODBO2\sealscp\Heads/SEAL_head_2"
+	"$bumpmap"    "Bread\CODBO2\sealscp\Heads/SEAL_head_nml"
+
+	"$compress" "Bread\CODBO2\sealscp\Heads\SEAL_head_2"
+	"$bumpcompress" "Bread\CODBO2\sealscp\Heads\SEAL_head_nml"
+
+	"$stretch" "Bread\CODBO2\sealscp\Heads\SEAL_head_2"
+	"$bumpstretch" "Bread\CODBO2\sealscp\Heads\SEAL_head_nml"
+
+	"$color2" "[1.23 1.3 1.3]"
+	//"$blendTintByBaseAlpha"	"1"
+	//"$additive" "1"
+	//$translucent 1
+	//$ambientocclusion 0
+	//$no_draw 0
+	//"$selfillum" "1"
+	//"$selfillummaskscale" "15"
+	//"$selfillummask" "/chr_ying_main_emi"
+
+	$nocull 0
+	$normalmapalphaenvmapmask 1 	
+
+	//"$envmap" "/metal_generic_002"					
+	"$envmaptint" "[0.04 0.04 0.04]"				
+
+	//ReflectionsDir
+
+	"$phong" "1"						
+	"$phongboost"	"1" 		
+	"$phongexponent" "6"	
+	"$phongexponenttexture" "Bread\CODBO2\sealscp\Heads/SEAL_head_mask"
+		
+	//"$phongwarptexture"		"Bread\CODBO2\sealscp\Shared/phongwarp2"		
+	$lightwarptexture "Bread\CODBO2\sealscp\Heads/lightwarp_flesh"
+	
+	"$phongfresnelranges"	"[0.2 4 20.75]"		
+	"$phongtint" 			"[1 1 1.1]"			
+	//"$PhongAlbedoTint" "1"
+	//"$rimlight" "1"
+	"$rimmask" "0"
+	"$rimlightboost" "0.5"
+
+}
